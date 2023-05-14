@@ -58,4 +58,17 @@ main{
     line-height: 2.4rem;
 }
 
+.info a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+
+    display: block;
+    margin: 2rem auto 0;
+    padding: 1.5rem;
+    width:fit-content;
+
+    background-color: #dc002d;
+    color: white;
+}
 
