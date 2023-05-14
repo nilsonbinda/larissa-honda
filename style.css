@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 8rem;
+    min-width: 37.5rem;
+
+    background-color: white;
+}
+
+header nav a img{
+    height: 5rem;
+}
+
+main{
+    margin: 0 auto;
+    padding: 2rem;
+    min-width: 37.5rem;
+}
+
+.info{
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+
+    border-radius: 5px;
+}
+
+.info h1{
+    font-size: 2.8rem;
+    line-height: 4.2rem; 
+}
+
+.info h2{
+    font-size: 2rem;
+    line-height: 4.2rem; 
+}
+
+.info p{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+
