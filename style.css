@@ -13,6 +13,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 header{
     display: flex;
     flex-direction: row;
@@ -48,6 +50,11 @@ section{
 section h2{
     font-size: 2rem;
     line-height: 4.2rem; 
+}
+
+.perfil-img{
+    height: 15rem;
+    padding: 2rem;
 }
 
 section p{
