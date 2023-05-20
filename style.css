@@ -33,6 +33,7 @@ header nav a img{
 
 main{
     display: grid;
+    grid-template-columns: auto;
     justify-content: center;
     gap: 2rem;
     padding: 2rem;
@@ -109,5 +110,22 @@ section ul li{
     line-height: 4.2rem; 
 }
 
+@media (min-width: 900px) {
+
+    main{
+        grid-template-areas: "A B" "C B";
+        grid-template-columns: 1fr 1fr; 
+        justify-items: start;
+    }
+
+    main section:nth-child(1){
+        grid-area: A;
+    }
+    
+    main section:nth-child(2){
+        grid-area: B;
+    }
+    
+}
 
 
