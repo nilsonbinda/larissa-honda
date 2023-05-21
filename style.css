@@ -119,7 +119,6 @@ section iframe{
     main{
         grid-template-areas: "A B" "C B";
         grid-template-columns: 1fr 1fr; 
-        justify-items: start;
     }
 
     main section:nth-child(1){
