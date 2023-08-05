@@ -35,9 +35,11 @@ main{
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
+    margin: 0 auto;
     gap: 2rem;
     padding: 2rem;
     min-width: 37.5rem;
+    max-width: 177rem;
 }
 
 section{
@@ -107,6 +109,7 @@ section ul li{
 
 section iframe{
     margin: 2rem 0;
+    background-color: black;
 }
 
 .info h1{
@@ -118,7 +121,7 @@ section iframe{
 
     main{
         grid-template-areas: "A B" "C B";
-        grid-template-columns: 1fr 1fr; 
+        grid-template-columns: 0.5fr 1.5fr; 
     }
 
     main section:nth-child(1){
